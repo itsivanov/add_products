@@ -23,7 +23,7 @@ for ($i=0; $i < count($arr_product['id']) ; $i++) {
                                ". $arr_product['name'][$i] . "
                               </div>
                               <div class=price>
-                               ". $arr_product['price'][$i] . "
+                               ". $arr_product['price'][$i] . "$
                               </div>
                            </div>
                           </div>";
