@@ -5,7 +5,7 @@ class Products {
   private $name;
   private $price;
   private $url;
- 
+
   function __construct($items)
   {
     $this->name   = ($items['name']) ? $items['name'] : 0 ;
@@ -38,7 +38,7 @@ class Products {
     fwrite($fp, $db . "\r\n");
     fclose($fp);
 
-  }
+  } 
   /**
   *
   * Returns an array of goods from the database
