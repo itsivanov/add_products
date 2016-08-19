@@ -38,7 +38,7 @@ class Products {
     fwrite($fp, $db . "\r\n");
     fclose($fp);
 
-  } 
+  }
   /**
   *
   * Returns an array of goods from the database
@@ -53,17 +53,11 @@ class Products {
       $arr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/app/file.txt');
       $arr = json_decode($arr);
 
-      foreach ($arr->id as $name) {
-        $db['id'][] = $name;
-      }
-      foreach ($arr->name as $name) {
-        $db['name'][] = $name;
-      }
-      foreach ($arr->price as $name) {
-        $db['price'][] = $name;
-      }
-      foreach ($arr->url as $name) {
-        $db['url'][] = $name;
+      for ($i=0; $i < count($arr->id) ; $i++) {
+          $db['id'][] = $arr->id[$i];
+          $db['name'][] = $arr->name[$i];
+          $db['price'][] = $arr->price[$i];
+          $db['url'][] = $arr->url[$i];
       }
     }else {
       $db = [

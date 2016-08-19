@@ -28,7 +28,7 @@
               <?php for ($i=0; $i < count($arr_product['id']) ; $i++) :?>
                     <div class=catousel-item id="<?php echo $arr_product['id'][$i]?>">
                         <div class=url>
-                          <img src="<?php echo $arr_product['url'][$i] ?>" width=100 height=100 alt=альтернативный текст />
+                          <img src="<?php echo $arr_product['url'][$i] ?>" width=100 height=100 alt="text" />
                         </div>
                         <div class=name>
                           <?php echo $arr_product['name'][$i] ?>

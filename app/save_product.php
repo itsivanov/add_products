@@ -17,7 +17,7 @@ for ($i=0; $i < count($arr_product['id']) ; $i++) {
   $return['product'] .= "<div class=carousel-slider>
                           <div class=catousel-item id=".$arr_product['id'][$i].">
                               <div class=url>
-                               <img src=". $arr_product['url'][$i] . " width=100 height=100 alt=альтернативный текст />
+                               <img src=". $arr_product['url'][$i] . " width=100 height=100 alt=text />
                               </div>
                               <div class=name>
                                ". $arr_product['name'][$i] . "
