@@ -8,7 +8,7 @@ class Products {
 
   function __construct($items)
   {
-    $this->name   = ($items['name']) ? $items['name'] : 0 ;
+    $this->name   = ($items['name']) ? $items['name'] : 'Name' ;
     $this->price  = ($items['price']) ? $items['price'] : 0;
     $this->url    = ($items['url']) ? $items['url'] : 0;
   }
