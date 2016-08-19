@@ -1,0 +1,82 @@
+.content {
+    margin-left: 30vw;
+}
+.product {
+    display: inline-block;
+}
+
+.input_style {
+    display: block;
+    margin-top: 5px;
+}
+.name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.price {
+    text-align: center;
+    font-size: 16px;
+}
+span.span_block {
+
+    padding-top: 3px;
+    float: left;
+    width: 50px;
+}
+
+button.btn {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+#carousel {
+  padding-left: 70px;
+  height: 200px;
+  position: relative;
+}
+.carousel-prev,
+.carousel-next {
+  position:absolute;
+  top:50%;
+  margin-top:-25px;
+  width:0;
+  height:0;
+  border:25px solid transparent;
+  cursor:pointer;
+  z-index:1;
+}
+.carousel-prev {
+  border-right-color:#000;
+  left:0;
+}
+.carousel-next {
+  border-left-color:#000;
+  right:0;
+}
+
+.carousel-holder {
+  padding-top: 40px;
+  padding-left: 70px;
+  width: 87%;
+  height: 200px;
+  overflow: hidden;
+}
+.carousel-slider {
+  position:relative;
+  width: 4000px;
+}
+.catousel-item {
+  width:115px;
+  height:150px;
+  float:left;
+}
+
+.info_block {
+    background: #F44336;
+    display: inline-block;
+    padding: 11px;
+    margin-left: 50px;
+    display: none;
+}
