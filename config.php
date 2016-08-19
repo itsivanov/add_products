@@ -5,7 +5,7 @@ define('PATH_ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 
 /**
- * Автоматически подключает классы с именем $className
+ * Automatically connects classes named $className
  *
  * @return void
  **/
