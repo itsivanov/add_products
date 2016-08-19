@@ -5,7 +5,7 @@ class Products {
   private $name;
   private $price;
   private $url;
-
+ 
   function __construct($items)
   {
     $this->name   = ($items['name']) ? $items['name'] : 0 ;
